@@ -7,12 +7,13 @@
     <meta name="robots" content="index,follow" />
     <meta name="author" content="raviranjan kumar">
     <meta name="description" content="ravicodder teaching plateform">
-    <link rel="shortcut icon" href="img/ravicodderlogo.webp" type="image/x-icon">
+    <link rel="shortcut icon" href="/projectravi/img/ravicodderlogo.webp" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <title>About page</title>
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="/projectravi/css/style.css">
+<!-- AOS pluing -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -23,7 +24,7 @@
             <!-- logo -->
             <div class="navbar-brand">
                 <a href="index.html">
-                    <img src="img/ravicodder1.webp" alt="ravicodder educ logo" width="30%" height="auto">
+                    <img src="/projectravi/img/ravicodder1.webp" alt="ravicodder educ logo" width="30%" height="auto">
                 </a>
             </div>
             <!-- navbar -->
@@ -50,8 +51,8 @@
         <div class="container grid grid-three--cols">
            <!-- first card -->
            <div class="about-div">
-              <div class="icon">
-                 <img src="img/research.webp" alt="recharge">
+              <div class="icon" data-aos="flip-left">
+                 <img src="/projectravi/img/research.webp" alt="recharge">
               </div>
               <h2 class="section-common--title">Research</h2>
               <p>We strat by learning what you need we look at what's new and exciting in learning and choose topics that
@@ -60,8 +61,8 @@
   
            <!-- two card -->
            <div class="about-div">
-              <div class="icon">
-                 <img src="img/design.webp" alt="design">
+              <div class="icon" data-aos="flip-right">
+                 <img src="/projectravi/img/design.webp" alt="design">
               </div>
               <h2 class="section-common--title">Desing</h2>
               <p>We strat by learning what you need we look at what's new and exciting in learning and choose topics that
@@ -70,8 +71,8 @@
   
            <!-- third card -->
            <div class="about-div">
-              <div class="icon">
-                 <img src="img/Coding.webp" alt="development">
+              <div class="icon" data-aos="flip-up">
+                 <img src="/projectravi/img/Coding.webp" alt="development">
               </div>
               <h2 class="section-common--title">Development</h2>
               <p>We strat by learning what you need we look at what's new and exciting in learning and choose topics that
@@ -93,8 +94,8 @@
           </div>
        </div>
        <!-- right part -->
-       <div class="contact-img-part">
-          <img src="img/main.webp" alt=" join the free bootcamps images">
+       <div class="contact-img-part" data-aos="zoom-out-up">
+          <img src="/projectravi/img/main.webp" alt=" join the free bootcamps images">
        </div>
     </div>
 
@@ -111,7 +112,7 @@
           <p>Let's revolutionize the way you study with ravicodder</p>
 
           <!--  -->
-          <div class="social-footer-icon">
+          <div class="social-footer-icon" data-aos="zoom-out-right">
              <a href="https://www.facebook.com/share/1FSB2cSbWa/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
              <a href="https://www.instagram.com/ravicodder?igsh=MTI1c21zY2c5YWM1Ng==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
              <a href="https://github.com/raviranjankumar-yadav95" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -163,6 +164,12 @@
       </div>
    </div>
  </footer>
+
+ <!-- AOS pluing -->
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
 </body>
 
 </html>

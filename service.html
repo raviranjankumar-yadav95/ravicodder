@@ -9,12 +9,13 @@
     <meta name="description" content="ravicodder teaching plateform, create my page html, CSS,JAVASCRIPT, responsive-desing">
     <meta name="keywords" content="ravicodder,html, css ,JavaScript,responsive-desing,teaching">
     
-    <link rel="shortcut icon" href="img/ravicodderlogo.webp" type="image/x-icon">
+    <link rel="shortcut icon" href="/projectravi/img/ravicodderlogo.webp" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <title>Service page</title>
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="/projectravi/css/style.css">
+<!-- AOS pluing -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -25,7 +26,7 @@
             <!-- logo -->
             <div class="navbar-brand">
                 <a href="index.html">
-                    <img src="img/ravicodder1.webp" alt="ravicodder educ logo" width="30%" height="auto">
+                    <img src="/projectravi/img/ravicodder1.webp" alt="ravicodder educ logo" width="30%" height="auto">
                 </a>
             </div>
             <!-- navbar -->
@@ -55,7 +56,7 @@
 
     <div class="container grid grid-four--cols">
        <!-- first-course-card -->
-       <div class="course-div">
+       <div class="course-div" data-aos="zoom-in">
           <div class="icon1">
              <i class="fa-brands fa-html5"></i>
           </div>
@@ -65,7 +66,7 @@
        </div>
 
        <!-- second-course-card -->
-       <div class="course-div">
+       <div class="course-div" data-aos="zoom-in-up">
           <div class="icon1">
              <i class="fa-brands fa-css"></i>
           </div>
@@ -75,7 +76,7 @@
              pages. It controls layout, colors,</p>
        </div>
        <!-- third-course-card -->
-       <div class="course-div">
+       <div class="course-div" data-aos="zoom-in-down">
           <div class="icon1">
              <i class="fa-brands fa-js"></i>
           </div>
@@ -85,7 +86,7 @@
              modern web developmen</p>
        </div>
        <!-- fourth-course-card -->
-       <div class="course-div">
+       <div class="course-div" data-aos="zoom-in-left">
           <div class="icon1">
              <i class="fa-brands fa-react"></i>
           </div>
@@ -115,8 +116,8 @@
                 </div>
             </div>
             <!-- right part -->
-            <div class="contact-img-part">
-                <img src="img/main.webp" alt=" join the free bootcamps images">
+            <div class="contact-img-part" data-aos="zoom-out-up">
+                <img src="/projectravi/img/main.webp" alt=" join the free bootcamps images">
             </div>
         </div>
 
@@ -133,7 +134,7 @@
                 <p>Let's revolutionize the way you study with ravicodder</p>
 
                 <!--  -->
-                <div class="social-footer-icon">
+                <div class="social-footer-icon" data-aos="zoom-out-right">
                     <a href="https://www.facebook.com/share/1FSB2cSbWa/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://www.instagram.com/ravicodder?igsh=MTI1c21zY2c5YWM1Ng==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://github.com/raviranjankumar-yadav95" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -186,6 +187,12 @@
             </div>
          </div>
     </footer>
+
+    <!-- AOS pluing -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init();
+   </script>
 </body>
 
 </html>
